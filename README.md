@@ -4,10 +4,10 @@
 <img src="https://github.com/santiagotena/assets/blob/master/logos/42%20logo.jpeg?raw=true" alt="42 Wolfsburg Logo" width="150" height="150">
 </p>
  
-Cub3D is a 42 Wolfsburg raycasting project where a pseudo-3D maze is to be rendered and allowed to be traversed in.
+Cub3D is a 42 Wolfsburg raycasting project where a pseudo-3D maze is to be rendered and where the user can traverse in.
 
 For this project it was key to implement a parser that processes custom .cub files and to connect it with a graphics rendering module. 
-The latter has a raycaster with Digital Differential Analysis (DDA) algorithm at its core.
+The latter has a raycaster with a Digital Differential Analysis (DDA) algorithm at its core.
 
 This project was done as a team by:
 <ul>
@@ -29,7 +29,7 @@ Elements`C` and `F` match with RGB values to render the colors of the ceiling an
 
 The map is to have characters `1` for walls, `0` for empty spaces.
 
-The use of ` ` (space characters) is allowed when not used beside a `0` character.
+The use of space characters is allowed when not used adjacent to a `0` character.
 
 Finally, the map is also to have `N` `S` `W` or `E` character for the player's staring position and spatial orientation.
 
