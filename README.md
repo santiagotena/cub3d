@@ -27,7 +27,7 @@ The elements `NO` `SO` `WE` `EA` are to be paired with paths for.xpm texture fil
 
 Elements`C` and `F` match with RGB values to render the colors of the ceiling and floor respectively.
 
-The map is to have characters `1` for walls, `0` for empty spaces.
+The map is to have characters `1` for walls and `0` for empty spaces.
 
 The use of space characters is allowed when not used adjacent to a `0` character.
 
