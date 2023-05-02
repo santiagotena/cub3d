@@ -4,7 +4,7 @@
 <img src="https://github.com/santiagotena/assets/blob/master/logos/42%20logo.jpeg?raw=true" alt="42 Wolfsburg Logo" width="150" height="150">
 </p>
  
-Cub3D is a 42 Wolfsburg raycasting project where a pseudo-3D maze is to be rendered.
+Cub3D is a 42 Wolfsburg raycasting project where a pseudo-3D maze is to be rendered and allowed to be traversed in.
 
 For this project it was key to implement a parser that processes custom .cub files and to connect it with a graphics rendering module. 
 The latter has a raycaster with Digital Differential Analysis (DDA) algorithm at its core.
@@ -27,7 +27,7 @@ The elements `NO` `SO` `WE` `EA` are to be paired with paths for.xpm texture fil
 
 Elements`C` and `F` match with RGB values to render the colors of the ceiling and floor respectively.
 
-The map is to have a values of `1` for walls, `0` for empty spaces.
+The map is to have characters `1` for walls, `0` for empty spaces.
 
 The use of ` ` (space characters) is allowed when not used beside a `0` character.
 
@@ -53,7 +53,7 @@ The user can use the following keys for movement of the player and the camera:
  
 The only parameter that is needed for this program to run is `path_to_cub_file`.
  
-In case of providng an invalid path to a .cub file or by feeding a .cub file with erroneous elements or map,
+In case of providing an invalid path to a .cub file or by feeding a .cub file with erroneous elements or map,
 the program displays an appropriate error message.
 
 Errors include for example: Providing a non-closed map, not providing a player starting position and not 
