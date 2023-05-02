@@ -25,7 +25,7 @@ Bonuses?
 [x]Check for leaks
 	[x] Try errors up until load_textures func
 	[x] Check with successful run and exit
-[ ]Norminette
+[x]Norminette
 	[x] Merge norm branches
 	[x] Test and check for leaks
 
