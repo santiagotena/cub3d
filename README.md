@@ -4,7 +4,7 @@
 <img src="https://github.com/santiagotena/assets/blob/master/logos/42%20logo.jpeg?raw=true" alt="42 Wolfsburg Logo" width="150" height="150">
 </p>
  
-Cub3D is a 42 Wolfsburg raycasting project where a pseudo-3D maze is to be rendered and where the user can traverse in.
+Cub3D is a 42 Wolfsburg raycasting project where a pseudo-3D maze is to be rendered and which the user can traverse.
 
 For this project it was key to implement a parser that processes custom .cub files and to connect it with a graphics rendering module. 
 The latter has a raycaster with a Digital Differential Analysis (DDA) algorithm at its core.
