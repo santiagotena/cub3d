@@ -48,12 +48,12 @@ void	left_right_movement(t_rc *rc, char **map, int key)
 	t_xy		rotation;
 	t_xy_int	delta;
 
-	delta.x = (int)(rc->position.x - rotation.x * MOVE_SPEED);
-	delta.y = (int)(rc->position.y - rotation.y * MOVE_SPEED);
 	if (key == A_KEY)
 		rotation = rotate_direction(rc->direction, 90);
 	else if (key == D_KEY)
 		rotation = rotate_direction(rc->direction, -90);
+	delta.x = (int)(rc->position.x - rotation.x * MOVE_SPEED);
+	delta.y = (int)(rc->position.y - rotation.y * MOVE_SPEED);
 	if (map[delta.x][delta.y])
 	{
 		if (map[delta.x][delta.y] != '1')
